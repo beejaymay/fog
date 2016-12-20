@@ -17,7 +17,9 @@
       "css": ["twitter.css"]
     }
   ],
+  "options_page": "options.html",
   "permissions": [
+    "storage",
     "http://*.facebook.com/*",
     "https://*.facebook.com/*",
     "http://*.twitter.com/*",
