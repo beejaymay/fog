@@ -1,0 +1,7 @@
+[data-element-term="follower_stats"] > .ProfileCardStats-statValue {
+  visibility: hidden !important;
+}
+
+[data-nav="followers"] > .ProfileNav-value {
+  visibility: hidden !important;
+}

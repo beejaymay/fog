@@ -10,12 +10,18 @@
   "content_scripts": [
     {
       "matches": ["http://*.facebook.com/*", "https://*.facebook.com/*"],
-      "css": ["facebook.css"]
+      "js": ["facebook.js"],
+      "css": ["facebook_hide.css"]
     },
     {
       "matches": ["http://*.twitter.com/*", "https://*.twitter.com/*"],
-      "css": ["twitter.css"]
+      "js": ["twitter.js"],
+      "css": ["twitter_hide.css"]
     }
+  ],
+  "web_accessible_resources": [
+    "twitter_show.css",
+    "facebook_show.css"
   ],
   "options_page": "options.html",
   "permissions": [
