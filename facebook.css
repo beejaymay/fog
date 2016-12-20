@@ -1,0 +1,7 @@
+[data-tab-key="friends"] > span {
+  display: none !important;
+}
+
+[role="tab"][name="All Friends"] > span:nth-child(2) {
+  display: none !important;
+}
