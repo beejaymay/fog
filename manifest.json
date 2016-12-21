@@ -1,7 +1,7 @@
 {
   "name": "Fog",
   "manifest_version": 2,
-  "version": "0.2",
+  "version": "0.3.0",
   "description": "Hides friend and follower counts on social media",
   "icons": {
     "32": "icon_32.png",
@@ -17,8 +17,7 @@
       "js": ["twitter.js"],
       "css": ["twitter_hide.css"]
     }
-  ]
-  "options_page": "options.html",
+  ],
   "permissions": [
     "storage",
     "http://*.facebook.com/*",
