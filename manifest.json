@@ -1,7 +1,7 @@
 {
   "name": "Fog",
   "manifest_version": 2,
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Hides friend and follower counts on social media",
   "icons": {
     "32": "icon_32.png",

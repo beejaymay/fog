@@ -5,3 +5,7 @@
 [role="tab"][name="All Friends"] > span:nth-child(2) {
   display: none !important;
 }
+
+.timelineReportContainer [role='article'] div span a {
+  display: none !important;
+}
